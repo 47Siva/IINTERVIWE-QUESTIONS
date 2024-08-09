@@ -186,3 +186,7 @@ Why encapsulation ?
 ⦁	class attributes can be made read only- if if we onlly used the GET method..Write only -if u only use the SET method
 ⦁	Increased security of data.
 
+-----------------------------------------------------------------------------------------------------------------------------
+20. What is the difference between the continue and break statement?
+         => Break and continue are two important keywords used in loops. When using a break keyword in a loop, the loop breaks instantly.
+         => The current iteration breaks when using the continue keyword, and the loop continues with the next iteration.
