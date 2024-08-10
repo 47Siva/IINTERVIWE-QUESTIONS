@@ -214,7 +214,7 @@ Comparator is the interface in java that contains the compare method. And by ove
 
 	While using SQL for this purpose isn't necessarily a bad idea, the ORM and ORM tools help simplify the interaction between relational databases and different OOP languages.
 What is an ORM Tool?
-An ORM tool is software designed to help OOP developers interact with relational databases. 
+	An ORM tool is software designed to help OOP developers interact with relational databases. 
 So instead of creating your own ORM software from scratch, you can make use of these tools.
 
 Here's an example of SQL code that retrieves information about a particular user from a database:
