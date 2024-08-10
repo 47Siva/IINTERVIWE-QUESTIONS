@@ -232,4 +232,14 @@ ORM tools can generate methods like the one in the last example.
 Most OOP languages have a variety of ORM tools that you can choose from. 
 Here are some of the most popular for Java:
 	 Hibernate, Apache OpenJPA, EclipseLink, jOOQ, Oracle TopLink
+
 -----------------------------------------------------------------------------------------------------------------------------------------
+25.PUT:
+ =>When updating, it replaces the entire resource with the data provided in the request.  
+ =>Multiple identical PUT requests will have the same effect as a single one. For example, if you PUT the same resource twice, the second request will not change anything.
+ =>The client sends a complete representation of the resource, meaning all fields should be provided even if only one field is being updated.
+  PATCH:
+ =>PATCH is used to apply partial modifications to a resource. Instead of sending a complete representation of the resource, you only send the fields that you want to update.
+ =>While PATCH can be idempotent, it doesn't have to be. The outcome may depend on the current state of the resource.
+ =>You send only the fields that need to be updated. The server will update the resource accordingly without affecting other fields.
+
