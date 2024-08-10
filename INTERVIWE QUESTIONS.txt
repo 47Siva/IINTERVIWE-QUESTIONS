@@ -186,13 +186,17 @@ Why encapsulation ?
 ⦁	class attributes can be made read only- if if we onlly used the GET method..Write only -if u only use the SET method
 ⦁	Increased security of data.
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 20. What is the difference between the continue and break statement?
          => Break and continue are two important keywords used in loops. When using a break keyword in a loop, the loop breaks instantly.
          => The current iteration breaks when using the continue keyword, and the loop continues with the next iteration.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 21. Is a RelationShip vs Has a relationShip
         1. Is-a Relationship (Inheritance)
 The "is-a" relationship is used to establish inheritance between a superclass and a subclass. It indicates that one class is a specialized version of another. This relationship is implemented using the extends keyword in Java.
         2. Has-a Relationship (Composition/Aggregation)
 The "has-a" relationship, also known as composition or aggregation, is used to represent that one class contains or is composed of another class. This relationship is typically implemented by having one class hold a reference to another class as a member variable.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+22.What is bytecode, and why is it important in Java?
+         Bytecode is the intermediate representation of Java code after compilation. It is important because it allows Java to be platform-independent; the same bytecode can run on any device with a JVM, enabling the "write once, run anywhere" capability.
