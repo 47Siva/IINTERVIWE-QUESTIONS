@@ -243,3 +243,10 @@ Here are some of the most popular for Java:
  =>While PATCH can be idempotent, it doesn't have to be. The outcome may depend on the current state of the resource.
  =>You send only the fields that need to be updated. The server will update the resource accordingly without affecting other fields.
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+26.Why is Java considered platform-independent, while the Java Virtual Machine (JVM) is platform-dependent?
+Java is considered platform-independent because Java programs are compiled into bytecode, which can be run on any system that has a Java Virtual Machine (JVM). The JVM interprets the bytecode into machine code that can be executed by the specific operating system and hardware, making Java programs portable across different platforms.
+
+However, the JVM itself is platform-dependent because it is specifically designed to work with the operating system and hardware of the platform it is installed on. Each platform (e.g., Windows, Linux, macOS) has its own implementation of the JVM, tailored to the specific characteristics of that platform. This platform-specific JVM ensures that the bytecode runs correctly on the underlying system.
+
+
