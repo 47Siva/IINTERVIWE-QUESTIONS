@@ -248,5 +248,18 @@ Here are some of the most popular for Java:
 Java is considered platform-independent because Java programs are compiled into bytecode, which can be run on any system that has a Java Virtual Machine (JVM). The JVM interprets the bytecode into machine code that can be executed by the specific operating system and hardware, making Java programs portable across different platforms.
 
 However, the JVM itself is platform-dependent because it is specifically designed to work with the operating system and hardware of the platform it is installed on. Each platform (e.g., Windows, Linux, macOS) has its own implementation of the JVM, tailored to the specific characteristics of that platform. This platform-specific JVM ensures that the bytecode runs correctly on the underlying system.
+--------------------------------------------------------------------------------------------------------------------------------------------
+27.) What is JPA?
+	JPA stands for Java Persistence API. It is a specification for accessing, persisting, and managing data between java objects/classes and a relational database.
+Here access and persist means access refers to reading data form a relational database and persist refers to writing java object to relational database.
+It provides a set of interfaces, annotations and classes that allow developers to define and manipulate entites.
+"specification" refers to a set of rules, guidelines, and interfaces that define how Java objects can be mapped to relational database tables.
+Example :
 
+Application ORM1 -methods like(insert, delete,update,select)
+	    ORM2- methods like(addObject, updateObject,deleteObj, selectObj)
+	    ORM3- methos like(insertObj,updateObj,removeObj,selectObj)
+  like if we are using "hibernate in ORM 1", after some years if there any issues on ORM 1, we need to change to another ORM tool like "ORM2-eclipse link or topLink"
+so in this case we have to change entire code on the application....its a complicated one,
+here we have JPA to rectify this issue by providing interfaces, so we dont need to change any code, just change the configuration thats all.
 
