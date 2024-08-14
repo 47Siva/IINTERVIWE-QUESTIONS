@@ -267,3 +267,6 @@ here we have JPA to rectify this issue by providing interfaces, so we dont need 
         Asynchronization -  on the other hand, allows multiple threads to execute concurrently without waiting for each other, which can improve performance but requires careful handling to avoid issues like race conditions.
         A thread is a single sequence of execution within a program. Every Java program has at least one thread, the main thread, which runs the main() method.
         Multithreading is the ability of a CPU or a single core in a multi-core processor to execute multiple threads concurrently. In Java, multithreading allows multiple threads to run independently, making the program more efficient by utilizing the CPU better.
+29.) Lampda Expression
+        Lambda expressions are a new feature in Java 8 that provide a clear and concise way to represent a method interface using an expression. They enable you to treat functionality as a method argument or to create small anonymous functions.
+        Lambda expressions are particularly useful in reducing boilerplate code and making it easier to work with collections, especially when combined with the Stream API. They enable more readable and maintainable code by focusing on the "what" rather than the "how" in functional operations.
