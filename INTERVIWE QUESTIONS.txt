@@ -262,4 +262,8 @@ Application ORM1 -methods like(insert, delete,update,select)
   like if we are using "hibernate in ORM 1", after some years if there any issues on ORM 1, we need to change to another ORM tool like "ORM2-eclipse link or topLink"
 so in this case we have to change entire code on the application....its a complicated one,
 here we have JPA to rectify this issue by providing interfaces, so we dont need to change any code, just change the configuration thats all.
-
+28.) synchronization 
+        synchronization refers to controlling access to shared resources by multiple threads to prevent data inconsistency. When a method or block is synchronized, only one thread can access it at a time, ensuring thread safety.
+        Asynchronization -  on the other hand, allows multiple threads to execute concurrently without waiting for each other, which can improve performance but requires careful handling to avoid issues like race conditions.
+        A thread is a single sequence of execution within a program. Every Java program has at least one thread, the main thread, which runs the main() method.
+        Multithreading is the ability of a CPU or a single core in a multi-core processor to execute multiple threads concurrently. In Java, multithreading allows multiple threads to run independently, making the program more efficient by utilizing the CPU better.
