@@ -302,6 +302,23 @@ Java :
       =>Java code is compiled to bytecode, which is then interpreted or compiled to machine code by the JVM, making it platform-independent but potentially slower than C++.
        =>Java does not support pointers explicitly. It uses references instead, which simplifies memory access and avoids common pointer-related errors.
 ----------------------------------------------------------------------------------------------------------------------------------------
+32.) What is Funtional Interface?
+	An Interface that contains exactly one abstract method is known as functional interface. It can have any number of default, static methods but can contain only one abstract method. It can also declare methods of object class. Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces. We refer functional interface with @functionalInterface annotation.
+Example:
+@FunctionalInterface
+public interface MyFunctionalInterface {
+    void doSomething();
+}
+MyFunctionalInterface myFunction = () -> System.out.println("Hello World!");
+myFunction.doSomething(); // prints "Hello World!"
+Pre defined functional interfaces:
+•	Supplier
+•	Consumer
+•	Function
+•	Predicate
+•	UnaryOperator
+•	BinaryOperator
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
