@@ -270,3 +270,21 @@ here we have JPA to rectify this issue by providing interfaces, so we dont need 
 29.) Lampda Expression
         Lambda expressions are a new feature in Java 8 that provide a clear and concise way to represent a method interface using an expression. They enable you to treat functionality as a method argument or to create small anonymous functions.
         Lambda expressions are particularly useful in reducing boilerplate code and making it easier to work with collections, especially when combined with the Stream API. They enable more readable and maintainable code by focusing on the "what" rather than the "how" in functional operations.
+
+
+30.) TypeCasting
+      typecasting is a way to convert one data type into another. This is commonly done when you need to treat an object of one type as another type,
+or when you want to convert between primitive types.
+Two Types of typeCasting:
+      1.Automatic TypeCasting
+      2.Manual TypeCasting  
+Automatic TypeCasting:
+      This happens automatically when you assign a smaller primitive type to a larger primitive type.
+Manual TypeCasting:
+      This requires manual intervention using a cast operator because you are converting a larger type to a smaller type, which might lose information.
+
+
+
+
+
+
