@@ -319,7 +319,16 @@ Pre defined functional interfaces:
 •	UnaryOperator
 •	BinaryOperator
 --------------------------------------------------------------------------------------------------------------------------------------------
-
+33. What is Java Interface?
+* An interface is a completely "abstract class" that is used to group related methods with empty bodies.
+* Like abstract classes, interfaces cannot be used to create objects.
+* Interface methods do not have a body - the body is provided by the "implement" class
+* On implementation of an interface, you must override all of its methods
+* Interface methods are by default abstract and public
+* Interface attributes are by default public, static and final
+* An interface cannot contain a constructor (as it cannot be used to create objects)
+* The interface is accessed by a class, then we use the "Implement" keyword.
+* the interface is accessed by a interface then use Eextends" key word.
 
 
 
