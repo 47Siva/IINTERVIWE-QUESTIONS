@@ -332,11 +332,11 @@ Pre defined functional interfaces:
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 34. What is main method? Why it is Important?
-	In Java, the main method is the entry point of any standalone Java application. It's the method that the Java Virtual Machine (JVM) looks for when running a program.
-	Entry Point: The main method is crucial because it serves as the starting point of a Java application. When you run a program, the JVM invokes this method first.
-	Execution Flow: The code inside the main method is executed sequentially, which controls the overall flow of the program.
-	Command-Line Arguments: The args parameter allows you to pass arguments to your program from the command line, enabling dynamic input.
-	Foundation for Applications: Every standalone Java application must have at least one class with a main method to be executed. Without it, the program won't run.
-	Main method-a thappa eluthina, JVM oru error throw pannum, mostly "Main method not found" or "Main method is not static" maadhiri messages kaattum. Idha correct panna main method-a exact syntax-a, public static void main(String[] args), use pannanum.
+	* In Java, the main method is the entry point of any standalone Java application. It's the method that the Java Virtual Machine (JVM) looks for when running a program.
+	* Entry Point: The main method is crucial because it serves as the starting point of a Java application. When you run a program, the JVM invokes this method first.
+	* Execution Flow: The code inside the main method is executed sequentially, which controls the overall flow of the program.
+	* Command-Line Arguments: The args parameter allows you to pass arguments to your program from the command line, enabling dynamic input.
+	* Foundation for Applications: Every standalone Java application must have at least one class with a main method to be executed. Without it, the program won't run.
+	* Main method-a thappa eluthina, JVM oru error throw pannum, mostly "Main method not found" or "Main method is not static" maadhiri messages kaattum. Idha correct panna main method-a exact syntax-a, public static void main(String[] args), use pannanum.
 --------------------------------------------------------------------------------------------------------------------------------------------
 
