@@ -339,4 +339,8 @@ Pre defined functional interfaces:
 	* Foundation for Applications: Every standalone Java application must have at least one class with a main method to be executed. Without it, the program won't run.
 	* Main method-a thappa eluthina, JVM oru error throw pannum, mostly "Main method not found" or "Main method is not static" maadhiri messages kaattum. Idha correct panna main method-a exact syntax-a, public static void main(String[] args), use pannanum.
 --------------------------------------------------------------------------------------------------------------------------------------------
-
+35. Strin Joiner in Java 8?
+	StringJoiner is a utility class in Java that was introduced in Java 8. It is used to construct a sequence of characters separated by a delimiter (like commas, spaces, etc.). You can also specify a prefix and suffix to wrap around the entire sequence.
+	Delimiter: A separator between each element.
+	Prefix and Suffix: Optional strings that are added before the first element and after the last element, respectively.
+	StringJoiner is particularly useful for joining a collection of strings, especially when you need to separate them with a specific delimiter and optionally enclose them with a prefix and suffix.
