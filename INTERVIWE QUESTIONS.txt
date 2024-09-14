@@ -344,3 +344,17 @@ Pre defined functional interfaces:
 	Delimiter: A separator between each element.
 	Prefix and Suffix: Optional strings that are added before the first element and after the last element, respectively.
 	StringJoiner is particularly useful for joining a collection of strings, especially when you need to separate them with a specific delimiter and optionally enclose them with a prefix and suffix.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+36.Threads :
+     thread is a lightweight process that can run concurrently with other threads to perform tasks in parallel.
+Extending the Thread Class
+     This is one way to create a thread by subclassing the Thread class and overriding its run() method.
+Implementing the Runnable Interface
+     Another, and often preferred, way is to implement the Runnable interface and pass an instance of the implementing class to a Thread object.
+Thread Methods
+     start(): Starts the thread. Calls the run() method internally.
+     run(): Contains the code that the thread executes.
+     sleep(long millis): Puts the thread to sleep for a specified number of milliseconds.
+     join(): Makes the current thread wait for another thread to finish.
+     yield(): Pauses the currently executing thread to allow other threads to execute.
+     setPriority(int newPriority): Sets the priority of the thread.
