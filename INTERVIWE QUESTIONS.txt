@@ -365,3 +365,15 @@ Thread Methods
    Spring Data JPA is a module in the Spring Framework that simplifies the functionality of the Java Persistence API (JPA). By using Spring Data JPA, the tasks of interacting with databases become very simple for developers.
    By creating a Repository interface, we can easily write the required queries. Spring Data JPA automatically generates queries based on name.
    By directly extending CrudRepository or JpaRepository in the Repository interface, we get basic CRUD (Create, Read, Update, Delete) operations. Thus, there is no need to repeat the code for basic operations.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+38.) What is Packages & its types?
+	A package is a way to group related classes, interfaces, and sub-packages together. Packages help organize the code in a modular, hierarchical structure and prevent naming conflicts between classes with the same name.
+
+1.)Built-in Packages (Java API Packages): These are the standard packages that come with the Java Development Kit (JDK) and provide a wide range of functionality for developers to use. Some common built-in packages are:
+
+java.lang: Contains fundamental classes such as String, Math, Integer, etc.
+java.util: Includes utility classes like ArrayList, HashMap, Date, etc.
+java.io: Provides classes for input and output operations.
+java.nio: For non-blocking I/O operations.
+java.sql: Used for database connectivity.
+2.)User-defined Packages: These are packages created by developers to organize their own classes, interfaces, and sub-packages. Creating user-defined packages helps in better code management and avoids class name conflicts.
