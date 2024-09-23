@@ -377,3 +377,9 @@ java.io: Provides classes for input and output operations.
 java.nio: For non-blocking I/O operations.
 java.sql: Used for database connectivity.
 2.)User-defined Packages: These are packages created by developers to organize their own classes, interfaces, and sub-packages. Creating user-defined packages helps in better code management and avoids class name conflicts.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+39.Java Regular Expression :
+    Java Regular Expressions (RegEx) is an efficient method used to search, match and manipulate text patterns.
+    Pattern: Regular expression-ஐ represent செய்யும் class.
+    Matcher: Pattern மற்றும் string-இன் match-ஐ represent செய்யும் class.
+    PatternSyntaxException: Regular expression-இல் syntax error இருந்தால் throw செய்யப்படும் exception.
