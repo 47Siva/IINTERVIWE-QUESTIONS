@@ -383,3 +383,5 @@ java.sql: Used for database connectivity.
     Pattern: Regular expression-ஐ represent செய்யும் class.
     Matcher: Pattern மற்றும் string-இன் match-ஐ represent செய்யும் class.
     PatternSyntaxException: Regular expression-இல் syntax error இருந்தால் throw செய்யப்படும் exception.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+39.) Difference between Vector and Deque.
