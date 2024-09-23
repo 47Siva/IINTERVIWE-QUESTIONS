@@ -384,4 +384,9 @@ java.sql: Used for database connectivity.
     Matcher: Pattern மற்றும் string-இன் match-ஐ represent செய்யும் class.
     PatternSyntaxException: Regular expression-இல் syntax error இருந்தால் throw செய்யப்படும் exception.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-39.) Difference between Vector and Deque.
+40.) Difference between Vector and Deque.
+Vector: A dynamic array that can grow and shrink in size. It allows random access and is useful for situations where you need fast access to elements by index. It's part of the java.util package.
+Synchronized by default, meaning it is thread-safe for concurrent use but incurs performance overhead due to synchronization.
+
+Deque: A double-ended queue that allows elements to be inserted or removed from both ends (front and back). It is useful when you need to add or remove elements at both ends of a list. Deque is an interface that is implemented by classes like ArrayDeque and LinkedList.
+Typically not thread-safe (e.g., ArrayDeque), but you can make it thread-safe by using external synchronization mechanisms (like wrapping it with Collections.synchronizedDeque).
