@@ -390,3 +390,21 @@ Synchronized by default, meaning it is thread-safe for concurrent use but incurs
 
 Deque: A double-ended queue that allows elements to be inserted or removed from both ends (front and back). It is useful when you need to add or remove elements at both ends of a list. Deque is an interface that is implemented by classes like ArrayDeque and LinkedList.
 Typically not thread-safe (e.g., ArrayDeque), but you can make it thread-safe by using external synchronization mechanisms (like wrapping it with Collections.synchronizedDeque).
+-----------------------------------------------------------------------------------------------------------------------------------------
+41. JVM and its memory allocations
+           =>In the JVM (Java Virtual Machine), memory is divided into various regions, and memory allocation happens in different areas depending on the kind of data being processed.
+    1)Heap Memory: Allocates memory for dynamically created objects and class instances. It is divided into Young and Old generations for garbage collection.
+    2)Method Area: Stores class metadata, static variables, and method data. It's where the JVM keeps information about loaded classes and methods.
+    3)Stack Memory: Used for method call frames and local variables. Each thread has its own stack to handle method execution and variable storage.
+    4)Program Counter (PC) Register: Tracks the current instruction being executed by a thread. Each thread has its own PC register to manage instruction execution.
+    5)Native Method Stack: Holds the state of native (non-Java) method calls. It's used for native methods implemented in languages like C or C++.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
