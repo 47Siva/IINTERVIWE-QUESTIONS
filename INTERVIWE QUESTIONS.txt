@@ -402,7 +402,18 @@ Typically not thread-safe (e.g., ArrayDeque), but you can make it thread-safe by
 
 42. Why Java Doesn't Support Multiple Inheritance?
 Java does not support multiple inheritance to avoid complexity and ambiguity, particularly the "Diamond Problem," where a subclass could inherit conflicting methods from multiple superclasses. Instead, Java uses interfaces, allowing classes to implement multiple interfaces and achieve similar functionality without the associated issues of multiple inheritance. This design choice promotes simplicity, readability, and maintainability in code
-
+-------------------------------------------------------------------------------------------------------------------------------------------------
+43.Predicate,Supplier,Consumer :
+   Predicate, Supplier, and Consumer are Functional Interfaces introduced in Java 8. These are used to support Lambda expressions and functional programming concepts.
+   1.Predicate:
+      Predicate is a functional interface that accepts an input and returns a boolean value (true or false).
+It is generally used for filtering or validation operations.
+   2.Supplier:
+      Supplier is a functional interface that returns a value without input.
+Generally used in resource creation, factory methods etc.
+   3.Consumer:
+      Consumer is a functional interface that accepts an input and returns no output.
+It usually works to process input without output.
 
 
 
