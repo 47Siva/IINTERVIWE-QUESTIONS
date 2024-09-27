@@ -414,7 +414,10 @@ Generally used in resource creation, factory methods etc.
    3.Consumer:
       Consumer is a functional interface that accepts an input and returns no output.
 It usually works to process input without output.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------
+44.) Disadvantages of Java.
+	Java's performance can be slow due to its virtual machine and memory management. The need to translate Java's human-like code into digital code, and the automated garbage collector, can also slow down performance.
+	Java applications tend to consume more memory than applications written in languages like C or C++. Java's syntax can be verbose and difficult to read. This can be especially problematic for beginners
 
 
 
