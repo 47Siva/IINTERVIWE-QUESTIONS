@@ -418,7 +418,11 @@ It usually works to process input without output.
 44.) Disadvantages of Java.
 	Java's performance can be slow due to its virtual machine and memory management. The need to translate Java's human-like code into digital code, and the automated garbage collector, can also slow down performance.
 	Java applications tend to consume more memory than applications written in languages like C or C++. Java's syntax can be verbose and difficult to read. This can be especially problematic for beginners
+-------------------------------------------------------------------------------------------------------------------------------------------------
+45.) Difference between Primitive datatype and Non-Primitive datatype.
+Primitive Datatype: Primitive types are predefined (already defined) in Java. Primitive datatype doesn't have methods. A primitive type starts with a lowercase letter. Primitive datatypes have fixed size(int-4 bytes, float-1 bit).
 
+Non-Primitive Datatype: Non-primitive types are created by the programmer and is not defined by Java (except for String).Non-primitive types can be used to call methods to perform certain operations. A non-primitive type starts with a uppercase letter. It doesn't have fixed size, it depend on the object data(String - null, Boolean - false).
 
 
 
