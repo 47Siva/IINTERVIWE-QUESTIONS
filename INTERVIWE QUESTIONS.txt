@@ -423,7 +423,22 @@ It usually works to process input without output.
 Primitive Datatype: Primitive types are predefined (already defined) in Java. Primitive datatype doesn't have methods. A primitive type starts with a lowercase letter. Primitive datatypes have fixed size(int-4 bytes, float-1 bit).
 
 Non-Primitive Datatype: Non-primitive types are created by the programmer and is not defined by Java (except for String).Non-primitive types can be used to call methods to perform certain operations. A non-primitive type starts with a uppercase letter. It doesn't have fixed size, it depend on the object data(String - null, Boolean - false).
+-------------------------------------------------------------------------------------------------------------------------------------------------
+46.)Process & Thread differentiate.
+In Java (and computing in general), processes and threads are both ways to achieve multitasking, but they differ in how they manage resources and execution. Here's the key difference between the two:
 
-
-
+1. Processes:
+A process is an independent program in execution.
+Memory Space: Each process has its own memory space (address space), which means processes do not share memory by default.
+Overhead: Creating a new process requires more overhead since it needs to allocate separate memory and system resources for each process.
+Communication: Processes need special mechanisms like inter-process communication (IPC), such as pipes, sockets, or shared memory, to communicate with each other.
+Isolation: If one process crashes, it doesn’t affect other processes since they are independent.
+Example: Running multiple instances of a Java program in separate command-line windows, each as a separate process.
+2. Threads:
+A thread is a smaller unit of a process, also known as a lightweight process.
+Memory Space: Threads within the same process share the same memory space (heap) and resources. They can access shared data and objects.
+Overhead: Threads are easier and faster to create compared to processes because they share resources like memory.
+Communication: Since threads share memory, they can communicate directly with each other more easily than processes.
+Dependency: If one thread in a process crashes, it can potentially bring down the entire process.
+Example: Multiple threads running within a single Java program, such as using the Thread class or ExecutorService.
 
