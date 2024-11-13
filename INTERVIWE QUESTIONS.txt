@@ -456,4 +456,11 @@ Java EE: The Java EE platform is built on top of the Java SE platform. The Enter
 Java ME: The Java ME platform is widely used for developing embedded systems, mobiles, and small devices. Java ME uses many libraries and APIs of Java SE, as well as many of its own. The basic aim of this edition is to work on mobiles, wireless devices, set top boxes, etc. Most of the apps developed for the phones were built on Java ME only.
  
 JavaFX: JavaFX is another edition of java technology, which is now merged with Java SE 8. It is mainly used to create rich GUI (Graphical User Interface) in java apps. It is supported by both desktop environments as well as web browsers.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------
+48.) What is Method reference in Java8?
+Java provides a new feature called method reference in Java 8. Method reference is used to refer method of functional interface. It is compact and easy form of lambda expression. Each time when you are using lambda expression to just referring a method, you can replace your lambda expression with method reference. In this tutorial, we are explaining method reference concept in detail.
+Types of Method Reference in Java 8
+1. Reference to a static method - [Syntax: ClassName::staticMethodName]
+2. Reference to an instance method of a particular object - [Syntax: object::instanceMethodName]
+3. Reference to an instance method of an arbitrary object of a particular type - [Syntax: ClassName::instanceMethodName]
+4. Reference to a constructor - [Syntax: ClassName::new]
