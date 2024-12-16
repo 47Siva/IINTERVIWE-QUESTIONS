@@ -464,3 +464,17 @@ Types of Method Reference in Java 8
 2. Reference to an instance method of a particular object - [Syntax: object::instanceMethodName]
 3. Reference to an instance method of an arbitrary object of a particular type - [Syntax: ClassName::instanceMethodName]
 4. Reference to a constructor - [Syntax: ClassName::new]
+-------------------------------------------------------------------------------------------------------------------------------------------------
+49.) Explain Predicate:
+	Predicate is a functional interface introduced in Java 8 as part of the java.util.function package. It represents a single-argument function that evaluates a condition (or "predicate") and returns a boolean value, i.e., true or false.
+@FunctionalInterface
+public interface Predicate<T> {
+    boolean test(T t);
+}
+Method:
+boolean test(T t): The main method used to evaluate the given condition.
+Default Methods:
+and(Predicate other): Combines two predicates with a logical AND.
+or(Predicate other): Combines two predicates with a logical OR.
+negate(): Reverses the result of the predicate (logical NOT).
+Usage: Predicates are commonly used in filtering and matching operations, especially with Stream API.
