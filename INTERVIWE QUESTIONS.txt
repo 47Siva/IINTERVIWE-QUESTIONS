@@ -478,3 +478,25 @@ and(Predicate other): Combines two predicates with a logical AND.
 or(Predicate other): Combines two predicates with a logical OR.
 negate(): Reverses the result of the predicate (logical NOT).
 Usage: Predicates are commonly used in filtering and matching operations, especially with Stream API.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+50.) Enumeration:
+	An enumeration (enum) in Java is a special data type that allows you to define a collection of named constants. Enums are often used when you have a fixed set of related values that do not change, such as days of the week, directions, or states.
+Enums are defined using the enum keyword in Java.
+
+An enumeration (enum) in Java is a special data type that allows you to define a collection of named constants. Enums are often used when you have a fixed set of related values that do not change, such as days of the week, directions, or states.
+
+Declaring an Enum
+Enums are defined using the enum keyword in Java. Here's an example:
+
+java
+Copy code
+public enum Day {
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+Key Features of Enums
+Type-Safe: Enums provide type safety, ensuring that a variable can only hold values defined in the enum.
+Implicit Methods: Enums have built-in methods like values(), ordinal(), and valueOf(String name):
+values(): Returns an array of all enum constants.
+ordinal(): Returns the position of the enum constant (zero-based).
+valueOf(String name): Converts a string to its corresponding enum constant.
+Can Have Fields and Methods: Enums can include fields, constructors, and methods.
